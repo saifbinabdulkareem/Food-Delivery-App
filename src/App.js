@@ -4,7 +4,7 @@ import SignUp from './Screens/SignUp';
 import SignIn from './Screens/SignIn';
 import Header from './Screens/Header';
 import Tag from './Components/Tags';
-import FoodCards from './Components/FoodCards';
+import Grid  from './Components/Grids';
 
 class App extends React.Component {
   constructor() {
@@ -21,8 +21,11 @@ class App extends React.Component {
       <div className="app_bg" style={{width:"100%", height:"571px" }}>
       <Tag style={{}} />
       </div> 
-      <div className="App">
-          <FoodCards />
+      <div className="App" >
+        <div className="cards" style={{marginTop:"0.8in"}}>
+          <Grid />
+        </div>
+          
           {/* <SignUp />
           <SignIn /> */}
       </div>
