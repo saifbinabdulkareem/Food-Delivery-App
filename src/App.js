@@ -4,6 +4,7 @@ import SignUp from './Screens/SignUp';
 import SignIn from './Screens/SignIn';
 import Header from './Screens/Header';
 import Tag from './Components/Tags';
+import FoodCards from './Components/FoodCards';
 
 class App extends React.Component {
   constructor() {
@@ -21,7 +22,7 @@ class App extends React.Component {
       <Tag style={{}} />
       </div> 
       <div className="App">
-          
+          <FoodCards />
           {/* <SignUp />
           <SignIn /> */}
       </div>
