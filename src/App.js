@@ -5,6 +5,7 @@ import SignIn from './Screens/SignIn';
 import Header from './Screens/Header';
 import Tag from './Components/Tags';
 import Grid  from './Components/Grids';
+import Footer from './Screens/Footer'
 
 class App extends React.Component {
   constructor() {
@@ -28,6 +29,9 @@ class App extends React.Component {
           
           {/* <SignUp />
           <SignIn /> */}
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
