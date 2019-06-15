@@ -6,6 +6,7 @@ import Header from './Screens/Header';
 import Tag from './Components/Tags';
 import Grid  from './Components/Grids';
 import Footer from './Screens/Footer'
+import Chips from './Components/CountryChips';
 
 class App extends React.Component {
   constructor() {
@@ -25,6 +26,9 @@ class App extends React.Component {
       <div className="App" >
         <div className="cards" style={{marginTop:"0.8in"}}>
           <Grid />
+        </div>
+        <div className="countryChips">
+          <Chips />
         </div>
           
           {/* <SignUp />
