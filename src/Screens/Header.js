@@ -132,7 +132,7 @@ export default function PrimarySearchAppBar() {
     >
       <MenuItem>
         <IconButton aria-label="Show 4 new mails" color="inherit">
-          <Badge badgeContent={4} color="secondary">
+          <Badge badgeContent={4} color="Primary">
             <MailIcon />
           </Badge>
         </IconButton>

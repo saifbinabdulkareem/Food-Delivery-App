@@ -15,8 +15,11 @@ class App extends React.Component {
   render() { 
   return (
     <div className='Header'>
-      <Header />
-      <div className="App">   
+      <Header /> 
+      <div className="app_bg" style={{width:"100%", height:"571px", opacity: "0.7"}}>
+      </div> 
+      <div className="App">
+          
           {/* <SignUp />
           <SignIn /> */}
       </div>
