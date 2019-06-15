@@ -3,6 +3,7 @@ import './App.css';
 import SignUp from './Screens/SignUp';
 import SignIn from './Screens/SignIn';
 import Header from './Screens/Header';
+import Tag from './Components/Tags';
 
 class App extends React.Component {
   constructor() {
@@ -16,7 +17,8 @@ class App extends React.Component {
   return (
     <div className='Header'>
       <Header /> 
-      <div className="app_bg" style={{width:"100%", height:"571px", opacity: "0.7"}}>
+      <div className="app_bg" style={{width:"100%", height:"571px" }}>
+      <Tag style={{}} />
       </div> 
       <div className="App">
           
