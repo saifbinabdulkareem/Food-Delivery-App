@@ -1,6 +1,5 @@
 import React from 'react';
 import '../App.css';
-import Link from '@material-ui/core/Link';
 
 class Footer extends React.Component {
     render() {
