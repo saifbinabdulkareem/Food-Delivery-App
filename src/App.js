@@ -4,7 +4,7 @@ import SignUp from './Screens/SignUp';
 import SignIn from './Screens/SignIn';
 import Header from './Screens/Header';
 import Tag from './Components/Tags';
-import Grid  from './Components/Grids';
+import Grids from './Components/Grids'
 import Footer from './Screens/Footer'
 import Chips from './Components/CountryChips';
 
@@ -25,7 +25,7 @@ class App extends React.Component {
       </div> 
       <div className="App" >
         <div className="cards" style={{marginTop:"0.8in"}}>
-          <Grid />
+          <Grids />
         </div>
         <div className="countryChips">
           <Chips />

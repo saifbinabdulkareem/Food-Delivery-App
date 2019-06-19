@@ -2,9 +2,6 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import FoodCards from './FoodCards'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -20,19 +17,8 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export default function SpacingGrid() {
-
-  componentDidMount(){
-    AOS.init({
-      duration : 2000
-    })
-  }
-  const [spacing, setSpacing] = React.useState(10);
+  const [spacing] = React.useState(2);
   const classes = useStyles();
-
-   handleChange(event, value) {
-    setSpacing(Number(value));
-  }
-
   return (
     <Grid container className={classes.root} spacing={10}>
       <Grid item xs={12}>

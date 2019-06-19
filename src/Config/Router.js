@@ -27,3 +27,5 @@ function BasicExample() {
     </Router>
   );
 }
+
+export default Router;
