@@ -28,4 +28,3 @@ function BasicExample() {
   );
 }
 
-export default Router;

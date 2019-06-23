@@ -12,9 +12,11 @@ class App extends React.Component {
   constructor() {
     super();
   this.state = {
-      showDashBoard: false
+      showProfile: false
     }
-    console.log('state===>', this.state)
+  }
+  afterLogin() {
+    this.setState({ showProfile: true });
   }
   render() { 
   return (
@@ -30,9 +32,7 @@ class App extends React.Component {
         <div className="countryChips">
           <Chips />
         </div>
-          
-          {/* <SignUp />
-          <SignIn /> */}
+        {!this.state.showProfile ? <SignUp afterLogin={this.afterLogin.bind(this)} /> : <SignIn />}
       </div>
       <div>
         <Footer />
